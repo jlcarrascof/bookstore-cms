@@ -3,8 +3,7 @@
 }
 
 .App-header {
-  background-color: #92b5fa;
-  min-height: 100vh;
+  background-color: #92b5fa;;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +14,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.add-book-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
