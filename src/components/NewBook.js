@@ -18,13 +18,17 @@ function NewBook() {
     } else {
       setError(false);
       dispatch(addBook({
-        item_id: uuidv4(), title, author, category,
+        item_id: uuidv4(), 
+        title, 
+        author, 
+        category,
       }));
       setAuthor('');
       setTitle('');
       setCategory('');
     }
   };
+  
   return (
     <form action="" className="add-book-form">
       <h3>Add new Book</h3>
