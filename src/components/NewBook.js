@@ -18,9 +18,9 @@ function NewBook() {
     } else {
       setError(false);
       dispatch(addBook({
-        item_id: uuidv4(), 
-        title, 
-        author, 
+        item_id: uuidv4(),
+        title,
+        author,
         category,
       }));
       setAuthor('');
@@ -28,7 +28,7 @@ function NewBook() {
       setCategory('');
     }
   };
-  
+
   return (
     <form action="" className="add-book-form">
       <h3>Add new Book</h3>
