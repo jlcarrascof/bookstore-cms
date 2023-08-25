@@ -25,3 +25,28 @@ code {
     'Courier New',
     monospace;
 }
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--azure);
+}
+
+.header {
+  padding: 25px 5%;
+  background-color: var(--white-two);
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 5px;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  padding: 1rem 2rem;
+}
