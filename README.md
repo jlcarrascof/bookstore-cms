@@ -86,7 +86,7 @@ However, you will only need to implement the /books page (see the image below). 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [coming soon](https://www.willbedeploywhenigottheapproved.com)
+- [coming soon]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
