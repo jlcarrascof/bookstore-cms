@@ -44,6 +44,7 @@ body {
 
 .navbar {
   display: flex;
+  flex-direction: row;
   gap: 30px;
   padding: 1rem 2rem;
 }
@@ -70,6 +71,17 @@ body {
   color: #000; 
   font-weight: bold; 
 }
+
+.button-right {
+  cursor: pointer;
+  width: 2.813rem;
+  height: 2.813rem;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  margin-left: auto;
+}
+
 .add-book-form {
   display: flex;
   width: 90%;
