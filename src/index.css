@@ -66,6 +66,10 @@ body {
   color: #121212;
 }
 
+.navbar a.active {
+  color: #000; 
+  font-weight: bold; 
+}
 .add-book-form {
   display: flex;
   width: 90%;
